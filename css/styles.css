@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -58,6 +60,8 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 15px;
+  
+   
 
 }
 
@@ -75,12 +79,32 @@ background-color: #e5e7eba6;
 color: #F9FAF8;
 padding: 48px;
 width: 300px;
-height: 200px;
+height: 300px;
 display: flex;
 align-items: center;
 justify-content: center;
 flex: 2;
 
-
 }
 
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+.box{
+    border: 5px solid   #3882F6;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 14px;
+}
